@@ -2,6 +2,7 @@
   "name": "ekwnrwk",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://4444224444.github.io/backtotheweb",
   "dependencies": {
     "@react-three/drei": "^9.77.1",
     "@react-three/fiber": "^8.13.5",
@@ -19,14 +20,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   },
   "browserslist": {
     "production": [

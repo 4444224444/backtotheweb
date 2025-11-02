@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* 전체 페이지 및 헤더 기본 스타일 */
+.era2010sub-header,
+.era2010sub-page {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  padding: 2rem 1rem 1rem 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* 플랫한 헤더 디자인 */
+.header.era2010sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 버튼 스타일 */
+.era2010sub .home-button {
+  margin-right: 20rem;
+  display: flex;
+  align-items: center;
+}
+
+.era2010sub .timeline-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.era2010sub .home-button button,
+.era2010sub .timeline-buttons button {
+  background: #2d8cff;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.era2010sub .home-button button:hover,
+.era2010sub .timeline-buttons button:hover {
+  background-color: #1a6ee2;
+}
+
+/* 콘텐츠 배치 */
+.era2010sub-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* 설명 박스 */
+.era2010sub-page .text-box {
+  flex: none;
+  width: 260px;
+  background: #ffffff;
+  border: 1px solid #d0d4da;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}

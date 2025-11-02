@@ -1,15 +1,7 @@
 
-
-.header.era1980 {
-  background-color: black;
-  color: white;
-}
-
-.card.era1980 {
-  border: 3px dashed red;
-}
-
-.footer.era1980 {
-  background-color: darkgray;
-  color: yellow;
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: transparent; /* 필요 시 */
 }

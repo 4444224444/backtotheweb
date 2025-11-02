@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.era2000-page {
+  background-image: url('../../public/images/window00.jpg'); 
+  background-size: cover;        
+  background-position: center;  
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Tahoma', sans-serif;
+  color: #000080;
+}
+
+.era2000-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(to bottom, #d0e6ff, #a2c0f0);
+  border: 4px double #3366cc;
+  border-radius: 24px;
+  box-shadow: 0 0 12px rgba(0, 0, 255, 0.2),
+              inset 0 0 5px #ffffff;
+  font-family: 'Tahoma', sans-serif;
+  text-shadow: 1px 1px 0 #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.era2000 .home-button {
+    margin-right: 20rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .era2000 .timeline-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .era2000 .home-button button,
+  .era2000 .timeline-buttons button {
+    background: linear-gradient(to bottom, #ffffff, #d4e3fc);
+    border: 2px solid #7da2ce;
+    color: #003366;
+    font-size: 1.4rem;
+    font-family: 'Verdana', sans-serif;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .era2000 .home-button button:hover,
+  .era2000 .timeline-buttons button:hover {
+    background: linear-gradient(to bottom, #e6f0ff, #c2dafc);
+    border-color: #3a73c5;
+    color: #001a4d;
+  }
+  
+  .era2000 .resizable-box {
+    min-width: 120px;
+    min-height: 100px;
+    border: 2px solid #cccccc;
+    background: linear-gradient(to bottom right, #ffffff, #f0f0f0);
+    padding: 1rem;
+    resize: both;
+    overflow: auto;
+    font-family: 'Verdana', sans-serif;
+    color: #333333;
+    user-select: none;
+    cursor: move;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    border-radius: 4px;
+  }

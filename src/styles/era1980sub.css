@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+/* 메인 페이지와 공유되는 헤더 */
+.era1980-header,
+.era1980-page {
+  background-color: black;
+  min-height: 100vh;
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.header.era1980 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 2rem;
+  border: 2px solid #00ff00;
+  border-radius: 999px;
+  font-family: 'VT323', monospace;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ✅ Era1980sub 전용 페이지 영역 */
+.era1980sub-page {
+  background: black;
+  font-family: 'Courier New', monospace;
+  color: #33ff33;
+}
+
+/* ✅ 콘텐츠 영역 - 중앙 정렬 */
+.era1980sub-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1000px;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+  

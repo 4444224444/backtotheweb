@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Tahoma&display=swap');
+
+/* 페이지 & 헤더 배경 설정 */
+.era2000sub-header,
+.era2000sub-page {
+  background-color: #f0f6ff;
+  min-height: 100vh;
+  padding: 2rem 1rem 1rem 1rem;
+  font-family: 'Tahoma', sans-serif;
+  color: #003366;
+}
+
+/* 헤더: XP 스타일 블루 톤 */
+.header.era2000sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(to bottom, #d0e6ff, #a2c0f0);
+  border: 4px double #3366cc;
+  border-radius: 20px;
+  box-shadow: 0 0 12px rgba(0, 0, 255, 0.2),
+              inset 0 0 5px #ffffff;
+  font-family: 'Tahoma', sans-serif;
+  text-shadow: 1px 1px 0 #ffffff;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 버튼 스타일 */
+.era2000sub .home-button {
+  margin-right: 20rem;
+  display: flex;
+  align-items: center;
+}
+
+.era2000sub .timeline-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.era2000sub .home-button button,
+.era2000sub .timeline-buttons button {
+  background: linear-gradient(to bottom, #ffffff, #d4e3fc);
+  border: 2px solid #7da2ce;
+  color: #003366;
+  font-size: 1.2rem;
+  font-family: 'Verdana', sans-serif;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.era2000sub .home-button button:hover,
+.era2000sub .timeline-buttons button:hover {
+  background: linear-gradient(to bottom, #e6f0ff, #c2dafc);
+  border-color: #3a73c5;
+  color: #001a4d;
+}
+
+/* 콘텐츠 레이아웃 */
+.era2000sub-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 이미지 박스 */
+.era2000sub-page .image-box img {
+  width: 360px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(100, 150, 255, 0.2);
+  border: 2px solid #3366cc;
+}
+
+/* 텍스트 박스 */
+.era2000sub-page .text-box {
+  flex: none;
+  width: 260px;
+  background: #ffffff;
+  border: 2px solid #3366cc;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 4px #a0c4ff, inset -2px -2px 4px #ffffff;
+  font-family: 'Tahoma', sans-serif;
+  color: #003366;
+}
+
+

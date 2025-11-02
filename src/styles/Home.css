@@ -1,3 +1,102 @@
-.header {
-    background: red;
+.home-header,
+.home-page {
+  background-color: black;
+  min-height: 100vh;
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.header.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'pretendard', monospace;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header.home .home-button {
+margin-right: 20rem;
+}
+
+
+  .header.home .timeline-buttons {
+    display: flex;
+    gap: 1.5rem;
   }
+
+
+/* 버튼 모양 */
+.header.home .home-button button,
+.header.home .timeline-buttons button {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  font-family: 'Courier New', monospace;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover 효과 */
+.header.home .home-button button:hover,
+.header.home .timeline-buttons button:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+/* 기본 배경과 폰트 */
+.home-page {
+  background-color: #fdfdfd;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 헤더는 앞에서 지정한 스타일Type="home"용 CSS 따로 있음 */
+
+/* 메인 콘텐츠 */
+.home-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #2d8cff;
+  letter-spacing: 1px;
+}
+
+.main-sub {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+/* 푸터는 간단하게 중앙정렬 */
+.footer.home {
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 0.9rem;
+  color: #888;
+  border-top: 1px solid #eee;
+}
+
+

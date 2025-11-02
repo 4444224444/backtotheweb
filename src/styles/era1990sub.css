@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* 1990sub 헤더 및 페이지 전체 */
+.era1990sub-header,
+.era1990sub-page {
+  background-color: #c3c7cb;
+  min-height: 100vh;
+  padding: 2rem 1rem 1rem 1rem;
+  font-family: 'Courier New', monospace;
+}
+
+/* Era1990 헤더 스타일 */
+.header.era1990sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  border: 2px solid #808080;
+  border-top-color: #ffffff;
+  border-left-color: #ffffff;
+  border-right-color: #404040;
+  border-bottom-color: #404040;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+  color: #000080;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 버튼 그룹 */
+.era1990sub .home-button {
+  margin-right: 20rem;
+  display: flex;
+  align-items: center;
+}
+
+.era1990sub .timeline-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.era1990sub .home-button button,
+.era1990sub .timeline-buttons button {
+  background: #d4d0c8;
+  border: 2px solid #fff;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+  color: navy;
+  font-size: 1.5rem;
+  font-family: 'Verdana', sans-serif;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+/* 메인 콘텐츠 영역 */
+.era1990sub-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+  margin-top: 3rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 이미지 박스 */
+.era1990sub-page .image-box img {
+  width: 360px;
+  border-radius: 4px;
+  border: 2px solid #000;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* 텍스트 박스 */
+.era1990sub-page .text-box {
+  flex: none;
+  width: 100vh;
+  background: #ffffff;
+  border: 2px solid #000080;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: inset -2px -2px 0 #c0c0c0, inset 2px 2px 0 #808080;
+  color: #000080;
+  font-family: 'Courier New', monospace;
+}
+
+/* 입력 가능한 텍스트 영역 */
+.era1990sub-page .text-box textarea.editable-line {
+  width: 100%;
+  background-color: transparent;
+  color: #000080;
+  border: none;
+  resize: none;
+  font-size: 0.75rem;
+  font-family: 'Courier New', monospace;
+  line-height: 1.4;
+  outline: none;
+  margin-bottom: 0.5rem;
+}
